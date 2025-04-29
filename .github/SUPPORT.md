@@ -29,9 +29,3 @@ These are not appropriate avenues for seeking help or support with an open-sourc
 ## :information_desk_person: Customer Support
 
 I do not provide any sort of "customer support" for open-source projects.
-
-## :pray: Credits
-
-Forked from [SUPPORT.md](https://github.com/jessesquires/.github/blob/main/SUPPORT.md) written by [@jessesquires](https://github.com/jessesquires). Thank you very much for sharing your efforts with the community. :heart:
-
-**Please feel free to adopt this guide in your own projects. Fork it wholesale or remix it for your needs.**
