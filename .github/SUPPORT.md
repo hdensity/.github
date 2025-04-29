@@ -12,9 +12,9 @@ Please seek support in the following ways:
 
 1. :bulb: **Search for answers and ask questions on [Stack Overflow](https://stackoverflow.com).** This is the most appropriate place for debugging issues specific to your use of the project, or figuring out how to use the project in a specific way.
 
-1. :memo: As a **last resort**, you may open an issue on GitHub to ask for help. However, please clearly explain what you are trying to do, and list what you have already attempted to solve the problem. Provide code samples, but **do not** attach your entire project for someone else to debug. Review our [contributing guidelines](https://github.com/hdensity/.github/blob/master/CONTRIBUTING.md).
+1. :memo: As a **last resort**, you may open an issue on GitHub to ask for help. However, please clearly explain what you are trying to do, and list what you have already attempted to solve the problem. Provide code samples, but **do not** attach your entire project for someone else to debug. Review our [contributing guidelines](CONTRIBUTING.md).
 
-## :x: What NOT to do 
+## :x: What NOT to do
 
 Please **do not** do any the following:
 
