@@ -1,0 +1,43 @@
+name: 💡 Feature request
+description: Suggest an idea for this project
+title: "[Feature]: "
+labels: ["enhancement"]
+assignees:
+- hdensity
+body:
+- type: markdown
+  attributes:
+    value: Thank you for taking the time to contribute to this project by suggesting a new idea.
+- type: checkboxes
+  id: prerequisites
+  attributes:
+    label: Prerequisites
+    description: Please answer the following before submitting a feature request.
+    options:
+    - label: I have read and agree to follow the [contributing guidelines](https://github.com/hdensity/.github/blob/main/.github/CONTRIBUTING.md),
+        [security policy](./security/policy), [code of conduct](./#coc-ov-file) and
+        [Support](https://github.com/hdensity/.github/blob/main/.github/SUPPORT.md) guidelines.
+      required: true
+    - label: I have checked [the existing](./issues) issues for similar feature requests and I'm not creating a duplicate.
+      required: true
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: Clearly and concisely describe what you would like to change, add, or implement.
+  validations:
+    required: true
+- type: textarea
+  id: context
+  attributes:
+    label: Additional context
+    description: Please provide additional context for your proposal. In what way would it be beneficial to you or others? What problem would it solve?
+  validations:
+    required: true
+- type: textarea
+  id: alternatives
+  attributes:
+    label: Alternatives
+    description: Can you think of potential alternatives?
+  validations:
+    required: true
