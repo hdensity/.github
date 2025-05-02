@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub Community Support
+    url: https://github.com/hdensity/.github/discussions
+    about: Please ask and answer questions here or on Stack Overflow.
+  - name: Stack Overflow Support
+    url: https://stackoverflow.com/questions/tagged/hdensity+.github
+    about: Please ask and answer questions here or in GitHub discussions.
