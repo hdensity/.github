@@ -1,0 +1,66 @@
+name: 🐞 Bug Report
+description: Report a problem you encountered
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+- hdensity
+body:
+- type: markdown
+  attributes:
+    value: Thank you for taking the time to contribute to this project by completing this bug report!
+- type: checkboxes
+  id: prerequisites
+  attributes:
+    label: Prerequisites
+    description: Please answer the following before submitting an issue.
+    options:
+    - label: I have read the [contributing guidelines](https://github.com/hdensity/.github/blob/main/.github/CONTRIBUTING.md),
+        [security policy](./security/policy), [code of conduct](./#coc-ov-file) and
+        [Support](https://github.com/hdensity/.github/blob/main/.github/SUPPORT.md) guidelines.
+      required: true
+    - label: I have checked [the existing](./issues) issues and I'm not duplicating a bug report.
+      required: true
+    - label: I am using the latest released version of the application, tool, documentation, etc.
+      required: true
+- type: textarea
+  attributes:
+    label: What were you trying to do.
+    description: A brief description of what you were trying to achieve and, if possible, the commands you ran (please use
+      [fenced code blocks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks))
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Observed behaviour
+    description: A clear and concise description of what actually happened. Add any available application output/exception (please use
+      [fenced code blocks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks))
+      and/or screenshots, log files, etc.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Expected Behavior
+    description: A clear and concise description of what you expected to happen.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Steps To Reproduce
+    description: |
+      Clear and concise step by step instructions to reproduce the issue (please use
+      [fenced code blocks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)).
+
+      For complex setups, please create a minimalistic project which reproduces this issue, hosted in a public GitHub repo and provide the link and any necessary instructions here.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Environment
+    description: |
+      Please provide any relevant environment information, e.g.:
+
+      * the IDE (VS / VS Code) you are using and its version
+      * the OS you are on and its version
+      * other tools, links, references
+  validations:
+    required: false
