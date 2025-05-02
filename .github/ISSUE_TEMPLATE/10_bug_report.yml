@@ -14,11 +14,11 @@ body:
     label: Prerequisites
     description: Please answer the following before submitting an issue.
     options:
-    - label: I have read the [contributing guidelines](https://github.com/hdensity/.github/blob/main/.github/CONTRIBUTING.md),
+    - label: I have read and agree to follow the [contributing guidelines](https://github.com/hdensity/.github/blob/main/.github/CONTRIBUTING.md),
         [security policy](./security/policy), [code of conduct](./#coc-ov-file) and
         [Support](https://github.com/hdensity/.github/blob/main/.github/SUPPORT.md) guidelines.
       required: true
-    - label: I have checked [the existing](./issues) issues and I'm not duplicating a bug report.
+    - label: I have checked [the existing](./issues) issues for similar bug reports and I am not creating a duplicate.
       required: true
     - label: I am using the latest released version of the application, tool, documentation, etc.
       required: true
